@@ -15,3 +15,20 @@ We kept the image size to be 96x96 pixels with three channels RGB. Here we use A
 The embedding and distance for the images is been calculated. Post this we can use opencv to turn on the webcam to get the live video feed and use haar cascade xml file to detect faces and match the detected faces and calculate the distances to similarity of images.
 
 The distances will be printed and same will be used to identify who is there in image.
+
+
+## How to install
+To install all the requirements for the project run
+
+pip install -r requirements.txt
+
+
+## How to run project
+
+TO run the project use below command
+
+python facenet.py
+
+## P.S.
+
+You can add your image in the directory './images', which results the webcam to identify and recognize your face
